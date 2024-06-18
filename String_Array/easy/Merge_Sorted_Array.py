@@ -6,7 +6,6 @@ class Solution(object):
         while idx_nums2 >= 0:
             if nums1[idx_nums1] > nums2[idx_nums2] and idx_nums1 >= 0 :
                 nums1[idx_reverse] = nums1[idx_nums1]
-                #nums1[idx_nums1] = nums2[idx_nums2]
                 idx_nums1 -= 1
             else:
                 nums1[idx_reverse] = nums2[idx_nums2]
